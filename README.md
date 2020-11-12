@@ -7,7 +7,8 @@
 ### Introduction ###
 For our design project in ECEN 5730 PCB Design at CU Boulder, Fall 2020, our team designed a two layer PCB that can measure a Current vs. Voltage (I-V) characteristic curve and transmit this data over UART for plotting. 
 * [schematic](IV_shield_schematic.pdf)
-* [layout](IV_shield_layout.jpg)
+* [layout](IV_shield_layout.JPG)
+
 The shield is compatible with the Arduino Uno pinout and can measure the I-V characteristic of most two terminal components (resistors, diodes, etc.). We refer to this component as the Device Under Test (DUT). The shield also has an onboard LED which can act as the DUT by closing a jumper connection on the board. Finally, the current sense resistor can be switched out to maximize the voltage resolution for a wide range of components. 
 
 - - - -
