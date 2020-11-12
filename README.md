@@ -1,7 +1,7 @@
 # I-V Curve Generation Arduino Shield #
 - - - -
 #### Arduino and Matlab Code for ECEN 5730, Fall 2020, Graduate Board Design Project ####
-#### Jake Michael and Shamanth Pranesharao ####
+#### Jake Michael and Shamanth Kudaligi Pranesharao ####
 
 - - - - 
 ### Introduction ###
