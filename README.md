@@ -25,4 +25,3 @@ The Arduino waits to recieve the ascii string "START" from Matlab. Once it gets 
 - - - -
 ### Example I-V Curve of Green LED (Onboard DUT) ###
 <img src="./sample.jpg">
-- - - -
