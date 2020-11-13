@@ -25,7 +25,7 @@ Since the ATmega328P does not have a floating point unit, we left the ADC readin
 * "Adafriut_MCP4725" - the library for setting DAC output. Further info: https://learn.adafruit.com/mcp4725-12-bit-dac-tutorial/using-with-arduino
 * "ADS1115_WE" - the library for reading ADC inputs. Further info: https://wolles-elektronikkiste.de/ads1115
 
-The Arduino waits to recieve the ascii string "START" from Matlab. Once it gets this command, it initiates a pulse-mode sweep of the DAC from 0 V to 4.088 V. At each DAC setpoint, the ADC measures the voltage across the DUT and the sense resistor and transmits the raw values to Matlab. Then, the DAC is set to 0 V for some delay period so that the DUT or current sense resistor do not burn up during testing.   
+The Arduino waits to receive the ascii string "START" from Matlab. Once it gets this command, it initiates a pulse-mode sweep of the DAC from 0 V to 4.088 V. At each DAC setpoint, the ADC measures the voltage across the DUT and the sense resistor and transmits the raw values to Matlab. Then, the DAC is set to 0 V for some delay period so that the DUT or current sense resistor do not burn up during testing.   
 
 - - - -
 ### Example I-V Curve of Green LED (Onboard DUT) ###
