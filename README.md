@@ -2,6 +2,7 @@
 - - - -
 #### Arduino and Matlab Code for ECEN 5730, Fall 2020, Graduate Board Design Project ####
 #### Jake Michael and Shamanth Kudaligi Pranesharao ####
+Note on the Honor Code: This repository is available publicly in order to showcase our project. Any PCB Design students in future semesters are not authorized to use this design, code, or materials provided here for submission as their own work.  
 
 - - - - 
 ### Introduction ###
