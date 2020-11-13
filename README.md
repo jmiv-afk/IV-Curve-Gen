@@ -13,7 +13,7 @@ The shield is compatible with the Arduino Uno pinout and can measure the I-V cha
 
 - - - -
 ### Design ### 
-We attempted to use best PCB design practices during the design of the board and thus we placed all decoupling capacitors as close to their IC's as practical and utilized a continuous ground plane as the bottom layer. The shield was designed to allow an Arduino to communicate with two onboard IC's via I2C: 
+We attempted to use best PCB design practices during the design of the board and thus we placed all decoupling capacitors as close to their IC's as practical and utilized a continuous ground plane as the bottom layer. In addition, we added several test points which definitely aided in the board bring up and debug process. The shield was designed to allow an Arduino to communicate with two onboard IC's via I2C: 
 * DAC - MCP4725, single channel 12-bit
 * ADC - ADS1115, two differential channels 16-bit
 
