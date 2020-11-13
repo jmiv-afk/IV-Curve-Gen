@@ -33,5 +33,7 @@ The Arduino waits to recieve the ascii string "START" from Matlab. Once it gets 
 
 - - - -
 ### Notes and Lessons Learned ###
+* In the first iteration of the board, the SDA and SCL lines were swapped for the ADS1115 in the Altium Schematic and thus the layout was also wrong. Therefore, we had to do an "engineering change wire" in order to get I2C communicating with both chips. Luckily, there were some exposed vias where the I2C traces crossed under the power trace in order to which allowed us to fix the board. The lesson learned here is to always verify the IC pinouts and nets with the datasheet before sending to fabrication. A two second checkover would have saved us a lot of debug and soldering time.
+* We also supplied an outdated BOM to JLC PCB (our fab shop) and therefore several components were not assembled. Big thanks to Shamanth for sourcing and soldering the 0603 and 0402 components that we needed. 
 
 - - - - 
